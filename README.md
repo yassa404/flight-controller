@@ -28,6 +28,7 @@ The board is highly extensible and provides several external ports for custom pa
 
 ## Repository Contents 📁
 * 📄 **`Custom STM32F405 Flight Controller.pdf`**: Complete schematic diagram detailing power delivery, MCU routing, and sensor integration.
+* 📄 **`schematic.png.png`**: A clean, logical schematic diagram organizing the flight controller design into functional blocks (based on image_12.png).
 * 💻 **`3d.png`**: 3D CAD render of the designed PCB.
 * 🛠️ **`top.png`** & **`buttom.png`**: Top and Bottom copper routing previews.
 * 📸 **`real pcb.jpeg`**: Photograph of the manufactured and assembled printed circuit board.
@@ -40,8 +41,12 @@ The board is highly extensible and provides several external ports for custom pa
 ### The Manufactured Board
 *The fully assembled custom PCB ready for deployment.*
 <p align="center">
-  <img src="real.jpeg" width="30%" alt="Custom PCB" />
+  <img src="real pcb.jpeg" width="30%" alt="Custom PCB" />
 </p>
+
+### Detailed System Schematic
+*The complete logical and connection schematic diagram of the K-Bee Flight Controller, organized into functional blocks for Power, Sensors, MCU, Connections, and Output Ports (based on image_12.png).*
+![K-Bee Schematic](schematic.png.png)
 
 ### CAD & Routing Previews
 *Hardware layout and 3D visualization.*
