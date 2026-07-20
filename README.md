@@ -67,7 +67,7 @@ The board is highly extensible and provides several external ports for custom pa
 ## Firmware Notes 💻
 This hardware was brought to life using the **ArduPilot** ecosystem. It utilizes a custom `hwdef.dat` file compiled via the Waf build system to correctly map the microcontroller pinout, initialize the redundant IMUs, map the DShot timers, and manage memory constraints effectively.
 
-## Acknowledgements & Team 🎓
+## Acknowledgements 
 The K-Bee Flight Controller is the core hardware foundation of a 2026 engineering graduation project focused on building an Autonomous Drone for GPS-Denied Environments. 
 
-A massive thank you to the technical project team who collaborated across hardware design, computer vision, drone modeling, and control systems engineering to bring this complex system together: Sohaila, Radwa, Soliman, Moamen, Kiro, Abanoub, Reem, Emad, and Daniel.
+
