@@ -27,6 +27,9 @@ This repository contains the hardware documentation, schematics, and physical sh
 ### The Manufactured Board
 *The fully assembled custom PCB ready for deployment.*
 ![Real PCB](real.jpeg)
+<p align="center">
+  <img src="real.jpeg" width="30%" alt=" custom PCB" />
+</p>
 
 ### CAD & Routing Previews
 *Hardware layout and 3D visualization.*
