@@ -41,12 +41,12 @@ The board is highly extensible and provides several external ports for custom pa
 ### The Manufactured Board
 *The fully assembled custom PCB ready for deployment.*
 <p align="center">
-  <img src="real pcb.jpeg" width="30%" alt="Custom PCB" />
+  <img src="real.jpeg" width="30%" alt="Custom PCB" />
 </p>
 
 ### Detailed System Schematic
 *The complete logical and connection schematic diagram of the K-Bee Flight Controller, organized into functional blocks for Power, Sensors, MCU, Connections, and Output Ports (based on image_12.png).*
-![K-Bee Schematic](schematic.png.png)
+![K-Bee Schematic](schematic.png)
 
 ### CAD & Routing Previews
 *Hardware layout and 3D visualization.*
