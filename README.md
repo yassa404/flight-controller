@@ -41,7 +41,7 @@ The board is highly extensible and provides several external ports for custom pa
 ### The Manufactured Board
 *The fully assembled custom PCB ready for deployment.*
 <p align="center">
-  <img src="real.jpeg" width="30%" alt="Custom PCB" />
+  <img src="real.jpeg" width="60%" alt="Custom PCB" />
 </p>
 
 ### Detailed System Schematic
