@@ -28,6 +28,7 @@ The board is highly extensible and provides several external ports for custom pa
 
 ## Repository Contents 📁
 * 📄 **`Custom STM32F405 Flight Controller.pdf`**: Complete schematic diagram detailing power delivery, MCU routing, and sensor integration.
+* 📄 **`schematic.png.png`**: A clean, logical schematic diagram organizing the flight controller design into functional blocks (based on image_12.png).
 * 💻 **`3d.png`**: 3D CAD render of the designed PCB.
 * 🛠️ **`top.png`** & **`buttom.png`**: Top and Bottom copper routing previews.
 * 📸 **`real pcb.jpeg`**: Photograph of the manufactured and assembled printed circuit board.
@@ -40,8 +41,12 @@ The board is highly extensible and provides several external ports for custom pa
 ### The Manufactured Board
 *The fully assembled custom PCB ready for deployment.*
 <p align="center">
-  <img src="real.jpeg" width="30%" alt="Custom PCB" />
+  <img src="real.jpeg" width="60%" alt="Custom PCB" />
 </p>
+
+### Detailed System Schematic
+*The complete logical and connection schematic diagram of the K-Bee Flight Controller, organized into functional blocks for Power, Sensors, MCU, Connections, and Output Ports (based on image_12.png).*
+![K-Bee Schematic](schematic.png)
 
 ### CAD & Routing Previews
 *Hardware layout and 3D visualization.*
@@ -62,7 +67,7 @@ The board is highly extensible and provides several external ports for custom pa
 ## Firmware Notes 💻
 This hardware was brought to life using the **ArduPilot** ecosystem. It utilizes a custom `hwdef.dat` file compiled via the Waf build system to correctly map the microcontroller pinout, initialize the redundant IMUs, map the DShot timers, and manage memory constraints effectively.
 
-## Acknowledgements & Team 🎓
+## Acknowledgements 
 The K-Bee Flight Controller is the core hardware foundation of a 2026 engineering graduation project focused on building an Autonomous Drone for GPS-Denied Environments. 
 
-A massive thank you to the technical project team who collaborated across hardware design, computer vision, drone modeling, and control systems engineering to bring this complex system together: Sohaila, Radwa, Soliman, Moamen, Kiro, Abanoub, Reem, Emad, and Daniel.
+
